@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>University Admission Form</title>
+</head>
+
+<body>
+
+    <h1>University Admission Form</h1>
+
+    <form>
+
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label>Full Name:</label><br>
+            <input type="text" maxlength="30" required><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" required><br><br>
+
+            <label>Date of Birth:</label><br>
+            <input type="date" required><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <input type="radio" name="gender"> Other
+            <br><br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Academic Information</legend>
+
+            <label>Previous College:</label><br>
+            <input type="text" maxlength="40" required><br><br>
+
+            <label>Preferred Department:</label><br>
+            <select required>
+                <option>CSE</option>
+                <option>CS</option>
+                <option>SE</option>
+                <option>EEE</option>
+            </select>
+            <br><br>
+
+            <label>Interests:</label><br>
+            <input type="checkbox"> Programming
+            <input type="checkbox"> Networking
+            <input type="checkbox"> AI
+            <br><br>
+
+            <label>Upload Transcript:</label><br>
+            <input type="file" required><br><br>
+
+        </fieldset>
+
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+
+</body>
+
+</html>
