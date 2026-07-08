@@ -1,0 +1,17 @@
+.user
+{
+    position:relative;
+    padding:20px;
+    border:20 px solid red;
+    background-color:greenyellow;
+    border-radius: 20px;
+    box-shadow: 20px black;
+
+
+}
+.badge
+{
+    position:absolute;
+    bottom:95%;
+    left:95%;
+}
