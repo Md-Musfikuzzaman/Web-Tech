@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Portfolio</title>
+    <script src="jstask9.js" defer></script>
+</head>
+<body>
+
+    <button id="themeButton" onclick="changeTheme()">Switch to Dark Mode</button>
+
+    <h2 id="greeting"></h2>
+
+    <hr>
+
+    <button onclick="showSection('about')">About</button>
+    <button onclick="showSection('projects')">Projects</button>
+    <button onclick="showSection('contact')">Contact</button>
+
+    <hr>
+
+    <div id="about">
+        <h3>About</h3>
+        <p>Welcome to my portfolio website.</p>
+    </div>
+
+    <div id="projects" style="display:none;">
+        <h3>Projects</h3>
+        <p>My projects will be shown here.</p>
+    </div>
+
+    <div id="contact" style="display:none;">
+        <h3>Contact</h3>
+
+        <form id="contactForm">
+
+            <label>Name:</label><br>
+            <input type="text" id="name">
+            <span id="nameError"></span>
+            <br><br>
+
+            <label>Email:</label><br>
+            <input type="text" id="email">
+            <span id="emailError"></span>
+            <br><br>
+
+            <label>Message:</label><br>
+            <textarea id="message"></textarea>
+            <span id="messageError"></span>
+            <br><br>
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+        <h3 id="success"></h3>
+
+    </div>
+
+</body>
+</html>

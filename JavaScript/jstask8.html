@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dynamic Form Field Display</title>
+
+    <script src="jstask8.js" defer></script>
+</head>
+<body>
+
+    <h2>Smart Registration Form</h2>
+
+    <label>User Type:</label>
+
+    <select id="userType" onchange="showField()">
+        <option value="">Select</option>
+        <option value="Student">Student</option>
+        <option value="Teacher">Teacher</option>
+    </select>
+
+    <br><br>
+
+    <div id="rollField" style="display:none;">
+        <label>Roll Number:</label>
+        <input type="text" id="roll">
+    </div>
+
+    <br>
+
+    <div id="departmentField" style="display:none;">
+        <label>Department:</label>
+        <input type="text" id="department">
+    </div>
+
+</body>
+</html>
